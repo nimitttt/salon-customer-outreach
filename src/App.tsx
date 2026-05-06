@@ -309,7 +309,7 @@ const Hero = ({ onOpenAudit }: { onOpenAudit: () => void }) => {
             <button onClick={onOpenAudit} className="btn-primary">
               Book an Audit
             </button>
-            <button onClick={() => window.location.href = "/demo/demo.html"} className="btn-outline">View Demo</button>
+            <button onClick={() => window.location.href = "/demo"} className="btn-outline">View Demo</button>
           </div>
         </motion.div>
         <motion.div
