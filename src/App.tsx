@@ -321,7 +321,7 @@ const Hero = ({ onOpenAudit }: { onOpenAudit: () => void }) => {
         >
           <div className="aspect-video lg:aspect-square bg-slate-100 rounded-3xl overflow-hidden shadow-2xl relative z-10 border-8 border-white">
             <img
-              src="analyse.png"
+              src="/analyse.png"
               alt="Dashboard Analytics"
               className="w-full h-full object-cover"
               referrerPolicy="no-referrer"
@@ -483,7 +483,7 @@ const DemoComparison = () => {
             </h4>
             <div className="relative rounded-2xl overflow-hidden aspect-video group bg-slate-100">
               <img
-                src="mess.png"
+                src="/mess.png"
                 alt="Chaotic Desk"
                 className="w-full h-full object-cover filter grayscale opacity-80"
                 referrerPolicy="no-referrer"
@@ -516,7 +516,7 @@ const DemoComparison = () => {
             </h4>
             <div className="relative rounded-2xl overflow-hidden aspect-video bg-blue-50">
               <img
-                src="messfree.png"
+                src="/messfree.png"
                 alt="Automated Success"
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
